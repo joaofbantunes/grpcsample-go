@@ -1,5 +1,5 @@
 # About
-Stupid simple sample to try gRPC and Go (blatently ripped from the official [helloworld](https://github.com/grpc/grpc-go/tree/master/examples/helloworld) example).
+Stupid simple sample to try gRPC and Go (blatantly ripped from the official [helloworld](https://github.com/grpc/grpc-go/tree/master/examples/helloworld) example).
 
 This will be used as a server, and will write a C# client just for the fun of it.
 
