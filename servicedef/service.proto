@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "CodingMilitia.GrpcSample.Server";
+option go_package = "service";
+
+package servicedef;
+
+import "servicedef/messages.proto";
+
+service Counter {
+  rpc Increment (IncrementRequest) returns (IncrementResponse) {}
+}

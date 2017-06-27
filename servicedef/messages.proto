@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "CodingMilitia.GrpcSample.Messages";
+option go_package = "service";
+
+package servicedef;
+
+message IncrementRequest {
+  string requester = 1;
+}
+
+message IncrementResponse {
+  int32 count = 1;
+}
